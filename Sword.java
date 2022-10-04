@@ -12,7 +12,7 @@ class Sword extends Weapon{
   
   public void Attack(){
     totalDamage= baseDamage + bonusDamage;
-    System.out.println("\nYou swing the " + weaponType + " and deal " + totalDamage + " damage!");
+    System.out.println("\nYou swing the " + weaponType + " and deal " + totalDamage + " damage!!!");
   }
 
   public void AddBonusDamage(){

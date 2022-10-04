@@ -157,6 +157,7 @@ class Main {
  //////////////////////////////////////////////////////////// 
   static void ChooseDifficulty(Scanner scan){
     
+    System.out.println("Welcome!");
     System.out.println("What is your name, warrior?");
     String yourName = scan.nextLine();
     System.out.println(yourName + "! Pick a number, 1 through 3, how difficult your fight will be...");
